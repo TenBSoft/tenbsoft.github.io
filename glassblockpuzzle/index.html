@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glass Block Puzzle · 유리 블록 퍼즐</title>
+<style>
+:root{--bg:#0b0920;--card:#16123a;--ink:#eeeaff;--dim:#a9a2d6;--accent:#8b6cff;--line:#2c2560}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+     padding:24px 16px;background:radial-gradient(ellipse at 50% 30%,#1d1650 0%,var(--bg) 70%);
+     color:var(--ink);font-family:system-ui,-apple-system,"Malgun Gothic",Segoe UI,sans-serif;line-height:1.7}
+.card{width:100%;max-width:560px;background:var(--card);border:1px solid var(--line);
+      border-radius:20px;padding:32px 28px;text-align:center}
+h1{margin:0;font-size:1.7rem}
+.sub{margin:.2em 0 1.4em;color:var(--dim)}
+p{margin:.4em 0;color:var(--dim)}
+.btns{display:flex;flex-direction:column;gap:12px;margin:1.6em 0 1.2em}
+a.btn{display:block;padding:14px 18px;border-radius:999px;text-decoration:none;font-weight:600;
+      background:var(--accent);color:#fff}
+a.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.foot{margin-top:1.4em;font-size:.9rem;color:var(--dim)}
+.foot a{color:var(--dim)}
+</style>
+
+<div class="card">
+  <h1>유리 블록 퍼즐</h1>
+  <div class="sub">Glass Block Puzzle</div>
+
+  <p>유리 블록을 쌓아 한 줄을 채우면 산산이 깨집니다.<br>막히면 도우미가 대신 놓아 줍니다.</p>
+  <p>Stack glass blocks, fill a row, and watch it shatter.<br>Stuck? Let the Helper play for you.</p>
+
+  <div class="btns">
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.tenbsoft.glassblockpuzzle">Google Play</a>
+    <a class="btn ghost" href="https://docs.google.com/document/d/e/2PACX-1vQvrnnmKXomAJU3ixaSAj_zgtwTc4s1AJdkaJHQcyMHhjX4jMY_EDD9v1CCz9wE_w/pub">개인정보처리방침 · Privacy Policy</a>
+  </div>
+
+  <div class="foot">TenB Soft (tenbsoft) · <a href="mailto:zeal21@naver.com">zeal21@naver.com</a></div>
+</div>
+</html>
